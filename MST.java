@@ -116,9 +116,9 @@ public static ArrayList<PartialTree.Arc> execute(PartialTreeList ptlist) {
 		ptlist.append(PTX);
 	
 
-		counter--;
+		
 		System.out.println("_____________________________________________________________________");
-
+		counter--;
 }
 
 	return result;

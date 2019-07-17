@@ -148,9 +148,9 @@ public class PartialTreeList implements Iterable<PartialTree> {
     			       curr = curr.next;
     			   } while (prev != rear);
     			   
-    			   if(curr==rear && prev==rear ){
-    					throw new NoSuchElementException("no match");
-    			   }
+//    			   if(curr==rear && prev==rear ){
+//    					throw new NoSuchElementException("no match");
+//    			   }
     			
     			   
     	  	   	PartialTree PTX = rear.tree;
